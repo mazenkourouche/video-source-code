@@ -1,0 +1,24 @@
+# Private configuration and generated outputs
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.mobileprovision
+*.cer
+credentials*
+secrets*
+private/
+private-data/
+recordings/
+transcripts/
+exports/
+*.log
+.DS_Store
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+.build/
+node_modules/

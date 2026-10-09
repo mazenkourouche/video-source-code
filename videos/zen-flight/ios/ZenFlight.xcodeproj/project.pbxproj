@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064BA30DCF24FF4B7BA6E721 /* medals_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 08337F9E2013BFC8ADA122BF /* medals_3.png */; };
+		08FECE504633E8A043C279C6 /* text_game_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 228C640D86D0C0CEE20CB745 /* text_game_over.png */; };
+		14907E81BE5ACCD01C70352B /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = D32CBB44801C2CD0B21BC2F0 /* earth.png */; };
+		20F7C48DE0A88BB7EF9AD642 /* plane.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF803F43B9CCB509BEDF52D /* plane.png */; };
+		24CB5D04F1602AC9C4EBE53C /* button_rate.png in Resources */ = {isa = PBXBuildFile; fileRef = F714755CB62BFB485C8A8015 /* button_rate.png */; };
+		344416B572DB2E306FBDF212 /* bamboo.png in Resources */ = {isa = PBXBuildFile; fileRef = 28DAE57C6D1BBA781CAE8C17 /* bamboo.png */; };
+		3CFDAF2DD8679B91662AAAB8 /* text_ready.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ACDC56A50C0ABC49CDC225C /* text_ready.png */; };
+		3E9B610F1281197F47263664 /* tutorial_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C575544264C071B67B877206 /* tutorial_arrow.png */; };
+		50AB283F6568781D209A8F1A /* tutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF1448C8035486C919558F8 /* tutorial.png */; };
+		687DCFCE45FDD91B58426878 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CA7757377F9103209524B43 /* background.png */; };
+		694066BC345C0AB4CD155A18 /* button_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A47147321C0B37419B4A7CA /* button_share.png */; };
+		6B0C37EBFBA6C14EC31C7353 /* medals_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D25D4E6CBC021EA1B91CBD5 /* medals_2.png */; };
+		6D70E9E28109A3134AB6137B /* Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783209C780E48C941FFB8830 /* Physics.swift */; };
+		720CDE2227FE4D44AC0257B7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1F409C311CDF900AC25EE /* GameScene.swift */; };
+		82A1B2026E73AE56F50D0563 /* button_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E06878CCCDC44BED70BABF /* button_pause.png */; };
+		8A73C3474917405E4D098C0B /* pebbles.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E5003F1859592812DB502B7 /* pebbles.png */; };
+		8C1BFF54AF9F39AACDB41298 /* tutorial_tap.png in Resources */ = {isa = PBXBuildFile; fileRef = 970F694A1959D4C62A470A7A /* tutorial_tap.png */; };
+		915307C50349784C641B6DF1 /* medals_0.png in Resources */ = {isa = PBXBuildFile; fileRef = E59B58595AD41CC008D67687 /* medals_0.png */; };
+		9A23E3ABD7840AF6ED1EA523 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A8338B2F78EA97DE82E4DB /* title.png */; };
+		A7B5DEDA85E7F0A6F2EC32EB /* ZenFlightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F578F049FDF4F502AA82E /* ZenFlightApp.swift */; };
+		AECC91211541219D228E3F5E /* tutorial_hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 49455B7C9E3490B8F7EC86B3 /* tutorial_hand.png */; };
+		B25FD7D454F70A0D0C96CD65 /* medals_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56933F90C7D1BFE91D3E843E /* medals_1.png */; };
+		BF619D337E39F09A94058DF3 /* button_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = B494FF61776816BA32BA36D7 /* button_menu.png */; };
+		C1C7760191E52A3E1C88FA3E /* new.png in Resources */ = {isa = PBXBuildFile; fileRef = 286C0F0D81A5DD4C766E661C /* new.png */; };
+		C41B9DD10D26301F2AD629F6 /* button_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 393A2B36AFE1509CDBE3196C /* button_play.png */; };
+		C4A9502F62CB776C6B12A288 /* button_resume.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E19120F7D1A15CE0DBF71A7 /* button_resume.png */; };
+		D2FB9929A6CA63C5F720216E /* score.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EBE2B1F5AA352BFF1F41F2B /* score.png */; };
+		DEA21AED32B676616E249F1C /* score_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F40C580D59452D90A409900 /* score_panel.png */; };
+		F5066329F71FB2519BC5D0FC /* button_ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 616E6915380EFCFC7EC507EC /* button_ok.png */; };
+		F9573AB6EE16977D38AAF4D5 /* button_score.png in Resources */ = {isa = PBXBuildFile; fileRef = BA82E1DE8F4D1A4754324E12 /* button_score.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08337F9E2013BFC8ADA122BF /* medals_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medals_3.png; sourceTree = "<group>"; };
+		0F7F578F049FDF4F502AA82E /* ZenFlightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenFlightApp.swift; sourceTree = "<group>"; };
+		11B1F409C311CDF900AC25EE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1ACDC56A50C0ABC49CDC225C /* text_ready.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_ready.png; sourceTree = "<group>"; };
+		1E19120F7D1A15CE0DBF71A7 /* button_resume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_resume.png; sourceTree = "<group>"; };
+		1EBE2B1F5AA352BFF1F41F2B /* score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = score.png; sourceTree = "<group>"; };
+		1F40C580D59452D90A409900 /* score_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = score_panel.png; sourceTree = "<group>"; };
+		228C640D86D0C0CEE20CB745 /* text_game_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text_game_over.png; sourceTree = "<group>"; };
+		286C0F0D81A5DD4C766E661C /* new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = new.png; sourceTree = "<group>"; };
+		28DAE57C6D1BBA781CAE8C17 /* bamboo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bamboo.png; sourceTree = "<group>"; };
+		393A2B36AFE1509CDBE3196C /* button_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_play.png; sourceTree = "<group>"; };
+		3A7E7F455DBDC2015269F63A /* ZenFlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenFlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF803F43B9CCB509BEDF52D /* plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plane.png; sourceTree = "<group>"; };
+		49455B7C9E3490B8F7EC86B3 /* tutorial_hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_hand.png; sourceTree = "<group>"; };
+		56933F90C7D1BFE91D3E843E /* medals_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medals_1.png; sourceTree = "<group>"; };
+		5EF1448C8035486C919558F8 /* tutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial.png; sourceTree = "<group>"; };
+		616E6915380EFCFC7EC507EC /* button_ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_ok.png; sourceTree = "<group>"; };
+		6D25D4E6CBC021EA1B91CBD5 /* medals_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medals_2.png; sourceTree = "<group>"; };
+		783209C780E48C941FFB8830 /* Physics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physics.swift; sourceTree = "<group>"; };
+		7CA7757377F9103209524B43 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		7E5003F1859592812DB502B7 /* pebbles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pebbles.png; sourceTree = "<group>"; };
+		970F694A1959D4C62A470A7A /* tutorial_tap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_tap.png; sourceTree = "<group>"; };
+		9A47147321C0B37419B4A7CA /* button_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_share.png; sourceTree = "<group>"; };
+		B494FF61776816BA32BA36D7 /* button_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_menu.png; sourceTree = "<group>"; };
+		B5E06878CCCDC44BED70BABF /* button_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_pause.png; sourceTree = "<group>"; };
+		B7A8338B2F78EA97DE82E4DB /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		BA82E1DE8F4D1A4754324E12 /* button_score.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_score.png; sourceTree = "<group>"; };
+		C575544264C071B67B877206 /* tutorial_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial_arrow.png; sourceTree = "<group>"; };
+		D32CBB44801C2CD0B21BC2F0 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		E59B58595AD41CC008D67687 /* medals_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medals_0.png; sourceTree = "<group>"; };
+		F714755CB62BFB485C8A8015 /* button_rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_rate.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1CE28CCC0CE82E9FFA8F5DA1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0F7F578F049FDF4F502AA82E /* ZenFlightApp.swift */,
+				11B1F409C311CDF900AC25EE /* GameScene.swift */,
+				783209C780E48C941FFB8830 /* Physics.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1F3AD6773554D0C1FA00434B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A7E7F455DBDC2015269F63A /* ZenFlight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFAA84D1516455AE6C2AA5B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CA7757377F9103209524B43 /* background.png */,
+				28DAE57C6D1BBA781CAE8C17 /* bamboo.png */,
+				B494FF61776816BA32BA36D7 /* button_menu.png */,
+				616E6915380EFCFC7EC507EC /* button_ok.png */,
+				B5E06878CCCDC44BED70BABF /* button_pause.png */,
+				393A2B36AFE1509CDBE3196C /* button_play.png */,
+				F714755CB62BFB485C8A8015 /* button_rate.png */,
+				1E19120F7D1A15CE0DBF71A7 /* button_resume.png */,
+				BA82E1DE8F4D1A4754324E12 /* button_score.png */,
+				9A47147321C0B37419B4A7CA /* button_share.png */,
+				D32CBB44801C2CD0B21BC2F0 /* earth.png */,
+				E59B58595AD41CC008D67687 /* medals_0.png */,
+				56933F90C7D1BFE91D3E843E /* medals_1.png */,
+				6D25D4E6CBC021EA1B91CBD5 /* medals_2.png */,
+				08337F9E2013BFC8ADA122BF /* medals_3.png */,
+				286C0F0D81A5DD4C766E661C /* new.png */,
+				7E5003F1859592812DB502B7 /* pebbles.png */,
+				3EF803F43B9CCB509BEDF52D /* plane.png */,
+				1F40C580D59452D90A409900 /* score_panel.png */,
+				1EBE2B1F5AA352BFF1F41F2B /* score.png */,
+				228C640D86D0C0CEE20CB745 /* text_game_over.png */,
+				1ACDC56A50C0ABC49CDC225C /* text_ready.png */,
+				B7A8338B2F78EA97DE82E4DB /* title.png */,
+				C575544264C071B67B877206 /* tutorial_arrow.png */,
+				49455B7C9E3490B8F7EC86B3 /* tutorial_hand.png */,
+				970F694A1959D4C62A470A7A /* tutorial_tap.png */,
+				5EF1448C8035486C919558F8 /* tutorial.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DAF00558DA99AEFDB10A6F22 = {
+			isa = PBXGroup;
+			children = (
+				BFAA84D1516455AE6C2AA5B9 /* Resources */,
+				1CE28CCC0CE82E9FFA8F5DA1 /* Sources */,
+				1F3AD6773554D0C1FA00434B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F003B54A4A6644001E4360E /* ZenFlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98B80BD7E246706D35E9D95 /* Build configuration list for PBXNativeTarget "ZenFlight" */;
+			buildPhases = (
+				3727BC112D8B25C7039566C8 /* Sources */,
+				B2B78237E63D0EB6F0D1058F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZenFlight;
+			packageProductDependencies = (
+			);
+			productName = ZenFlight;
+			productReference = 3A7E7F455DBDC2015269F63A /* ZenFlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46EAEE615F12743F907063A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 02EFCD4F4DE6915F753CECA8 /* Build configuration list for PBXProject "ZenFlight" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = DAF00558DA99AEFDB10A6F22;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F003B54A4A6644001E4360E /* ZenFlight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2B78237E63D0EB6F0D1058F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687DCFCE45FDD91B58426878 /* background.png in Resources */,
+				344416B572DB2E306FBDF212 /* bamboo.png in Resources */,
+				BF619D337E39F09A94058DF3 /* button_menu.png in Resources */,
+				F5066329F71FB2519BC5D0FC /* button_ok.png in Resources */,
+				82A1B2026E73AE56F50D0563 /* button_pause.png in Resources */,
+				C41B9DD10D26301F2AD629F6 /* button_play.png in Resources */,
+				24CB5D04F1602AC9C4EBE53C /* button_rate.png in Resources */,
+				C4A9502F62CB776C6B12A288 /* button_resume.png in Resources */,
+				F9573AB6EE16977D38AAF4D5 /* button_score.png in Resources */,
+				694066BC345C0AB4CD155A18 /* button_share.png in Resources */,
+				14907E81BE5ACCD01C70352B /* earth.png in Resources */,
+				915307C50349784C641B6DF1 /* medals_0.png in Resources */,
+				B25FD7D454F70A0D0C96CD65 /* medals_1.png in Resources */,
+				6B0C37EBFBA6C14EC31C7353 /* medals_2.png in Resources */,
+				064BA30DCF24FF4B7BA6E721 /* medals_3.png in Resources */,
+				C1C7760191E52A3E1C88FA3E /* new.png in Resources */,
+				8A73C3474917405E4D098C0B /* pebbles.png in Resources */,
+				20F7C48DE0A88BB7EF9AD642 /* plane.png in Resources */,
+				D2FB9929A6CA63C5F720216E /* score.png in Resources */,
+				DEA21AED32B676616E249F1C /* score_panel.png in Resources */,
+				08FECE504633E8A043C279C6 /* text_game_over.png in Resources */,
+				3CFDAF2DD8679B91662AAAB8 /* text_ready.png in Resources */,
+				9A23E3ABD7840AF6ED1EA523 /* title.png in Resources */,
+				50AB283F6568781D209A8F1A /* tutorial.png in Resources */,
+				3E9B610F1281197F47263664 /* tutorial_arrow.png in Resources */,
+				AECC91211541219D228E3F5E /* tutorial_hand.png in Resources */,
+				8C1BFF54AF9F39AACDB41298 /* tutorial_tap.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3727BC112D8B25C7039566C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B5DEDA85E7F0A6F2EC32EB /* ZenFlightApp.swift in Sources */,
+				720CDE2227FE4D44AC0257B7 /* GameScene.swift in Sources */,
+				6D70E9E28109A3134AB6137B /* Physics.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		20EF1661F379B23EED37336E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "Zen Flight";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = ZenFlight;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B937E0F7B2ACA58A88CFC084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zen Flight";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.zenflight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BB24EB2D97BE4746BCD8E0F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "Zen Flight";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = ZenFlight;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC73F162F1039760CB613E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Zen Flight";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.zenflight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02EFCD4F4DE6915F753CECA8 /* Build configuration list for PBXProject "ZenFlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B937E0F7B2ACA58A88CFC084 /* Debug */,
+				EC73F162F1039760CB613E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C98B80BD7E246706D35E9D95 /* Build configuration list for PBXNativeTarget "ZenFlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB24EB2D97BE4746BCD8E0F8 /* Debug */,
+				20EF1661F379B23EED37336E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46EAEE615F12743F907063A1 /* Project object */;
+}
